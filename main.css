@@ -1,0 +1,17 @@
+/* external css file */
+body {
+    font-family: "Montserrat", sans-serif;;
+}
+#product-overview {
+    background: #ff1b68;
+}
+
+#product-overview h1{
+    color : white;
+    font-family: "Anton", sans-serif;  /* sans-serif is the default style we can see that in browser default*/
+}
+
+.section-title {
+    color : #2ddf5c;
+}
+
