@@ -98,3 +98,35 @@ but here cascading wont work , specificity apply
 ## understanding the inheritence 
 
 the style is inherit from the parent 
+
+
+## combinators
+
+1. Adjacent sibling => +  the selected element should be next to the combinator. 
+div + p {  => here p should be next to div
+
+    }
+    
+<div>
+<p>vxc</p>   // this will not selected
+</div>
+<p>vvv</p> // only this will be selected because it select the sibling no the children
+
+    
+2. General sibling  => ~   it style the all element siblings 
+
+div ~ p {
+
+}
+3. child            => > it style the direct children not the grand children
+
+div > p {
+
+}
+
+4. Descendent  => it style all the P inside the div (child and grand child)
+
+div p {
+
+}
+
